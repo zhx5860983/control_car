@@ -3,12 +3,14 @@
     "description": "",
     "dependencies": {
         "core": "*",
-        "radio": "*",
-        "microphone": "*"
+        "microphone": "*",
+        "bluetooth": "*",
+        "wuKong": "github:elecfreaks/pxt-wukong#v1.5.6"
     },
     "files": [
         "main.ts",
-        "README.md"
+        "README.md",
+        "custom.ts"
     ],
     "testFiles": [
         "test.ts"
